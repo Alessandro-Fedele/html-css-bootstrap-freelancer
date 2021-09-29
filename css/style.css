@@ -1,6 +1,7 @@
 :root {
     --bs-success-rgb: 44,62,80;
     --bs-primary-rgb: 26,188,156;
+    --bs-dark-rgb: 58,84,109;
 }
 
 
@@ -10,4 +11,61 @@
     border-radius: 10px;
     padding: 0px 5px;
 }
+
+input {
+    border: none;
+    border-bottom: 1px solid rgb(220, 220, 220);
+    width: 100%;
+}
+
+.h-message {
+    height: 80px;
+}
+
+.my-nav-btn {
+    color: gray;
+    padding: 3px 5px;
+    border: 1px solid rgb(255, 255, 255);
+    border-radius: 10%;
+    margin-bottom: 5px;
+    width: 45px;
+}
+
+.nav-link {
+    color: white;
+    font-weight: bold;
+}
+
+.social-buttons {
+    width: 46px;
+    color: white;
+    padding: 10px;
+    border-radius: 50%;
+    border: 1px solid white;
+}
+
+.facebook:hover {
+    background-color: blue;
+    color: white;
+}
+
+.google:hover {
+    background-color: white;
+    color: red;
+}
+
+.twitter:hover {
+    background-color: rgb(36, 175, 255);
+    color: rgb(182, 227, 255);
+}
+
+.linkedin:hover {
+    background-color: white;
+    color: blue;
+}
+
+.sp-color {
+    color: rgb(26, 188, 156);
+}
+
 
